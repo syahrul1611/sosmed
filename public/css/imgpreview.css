@@ -1,0 +1,36 @@
+.preview-img {
+    max-width: 8rem;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+.preview-img img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.preview-img input {
+    display: none;
+}
+
+.form-post .image-post {
+    width: 40%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border: 5px dashed rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+.form-post .image-post img {
+    width: 100%;
+    padding: 1rem;
+}
+.form-post .image-post input {
+    display: none;
+}

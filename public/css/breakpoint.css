@@ -1,0 +1,8 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-bot {
+        display: none;
+    }
+    .card {
+        max-width: 50% !important;
+    }
+}
